@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(89, 183, 209);
+        font-family: Aharoni;
+        font-size: 30px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: rgb(13, 2, 5);
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
