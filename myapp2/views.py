@@ -56,4 +56,8 @@ def hello(request):
     template=loader.get_template('hello.html')
     return HttpResponse(template.render())
 
+def hungerg1(request):
+    template=loader.get_template('hungerg1.html')
+    return HttpResponse(template.render())
+
 # Create your views here.

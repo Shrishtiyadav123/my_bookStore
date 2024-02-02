@@ -4,6 +4,7 @@ from myapp2 import views
 
 urlpatterns = [
     path('hello/',views.hello,name='hello'),
+    path('hungerg1/',views.hungerg1,name='hungerg1'),
     path('owner/',views.owner,name='owner'),
     path('add_newbook/',views.add_newbook, name='add_newbook'),
     path('owner/mainweb/<int:id>',views.mainweb,name='mainweb'),
